@@ -111,4 +111,5 @@ if filereadable(expand("~/.vimrc.local"))
 endif
 
 "Colors
-highlight LineNr cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=#666666
+highlight LineNr cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=#333333
+highlight Comment cterm=NONE ctermfg=DarkGrey ctermbg=NONE gui=NONE guifg=#666666
