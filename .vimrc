@@ -31,7 +31,13 @@ set tabstop=8                                                " actual tabs occup
 set wildignore=log/**,node_modules/**,target/**,tmp/**,*.rbc
 set wildmenu                                                 " show a navigable menu for tab completion
 set wildmode=longest,list,full
-
+set textwidth=79  " lines longer than 79 columns will be broken
+set shiftwidth=4  " operation >> indents 4 columns; << unindents 4 columns
+set tabstop=4     " an hard TAB displays as 4 columns
+set expandtab     " insert spaces when hitting TABs
+set softtabstop=4 " insert/delete 4 spaces when hitting a TAB/BACKSPACE
+set shiftround    " round indent to multiple of 'shiftwidth'
+set autoindent    " align the new line indent with the previous line
 " Enable basic mouse behavior such as resizing buffers.
 set mouse=a
 if exists('$TMUX')  " Support resizing in tmux
